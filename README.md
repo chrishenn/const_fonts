@@ -1,12 +1,11 @@
 # Constant Invariate Fonts
-### const_fonts
-###
 
-Contribution to Object-Oriented Deep Learning (OODL) project. Advisor: Qianli Liao [https://cbmm.mit.edu/about/people/liao]
+Contribution to Object-Oriented Deep Learning (OODL) project. Advisor: [Qianli Liao](https://cbmm.mit.edu/about/people/liao)
 
 Project to generate difficult-to-learn visual datasets; evaluate traditional convnets; and motivate novel network architectures. We manipulate segments of images from the cocodataset.org dataset (2017) to construct capital letters from image segments. We can skew or recolor these composite images as needed.
 
-##
+&emsp;
+
 ## coco_subimg.py
 Cuts out annotated segmented-objects from coco imgs; sorts subimages by aspect ratio (width/heigh) of segment's bounding box.
 
